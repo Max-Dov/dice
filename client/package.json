@@ -1,0 +1,47 @@
+{
+  "name": "dices-client",
+  "version": "0.1",
+  "description": "https://github.com/Max-Dov/dice/tree/main/client/README.md",
+  "main": "./src/index.tsx",
+  "scripts": {
+    "build-frontend": "webpack --config webpack.config.ts",
+    "start-frontend": "webpack serve --config webpack.config.ts --open"
+  },
+  "author": "https://github.com/Max-Dov",
+  "license": "AGPLv3",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "@types/react-router": "^5.1.19",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/three": "^0.146.0",
+    "@types/webpack": "^5.28.0",
+    "babel-loader": "^9.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.2",
+    "html-webpack-plugin": "^5.5.0",
+    "portfinder-sync": "^0.0.2",
+    "sass": "^1.56.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.4.3",
+    "react-router-dom": "^6.4.3",
+    "socket.io-client": "^4.5.4",
+    "three": "^0.146.0"
+  }
+}

@@ -1,0 +1,3 @@
+# 🎲 Dice
+
+Browser dice game!

@@ -5,15 +5,27 @@
   "main": "./src/index.tsx",
   "scripts": {
     "build-frontend": "webpack --config webpack.config.ts",
-    "start-frontend": "webpack serve --config webpack.config.ts --open"
+    "start-frontend": "webpack serve --config webpack.config.ts --open",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "https://github.com/Max-Dov",
   "license": "AGPLv3",
   "devDependencies": {
+    "@babel/core": "^7.20.2",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
     "@babel/preset-typescript": "^7.18.6",
+    "@mdx-js/react": "^2.1.5",
+    "@storybook/addon-actions": "^6.5.13",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-interactions": "^6.5.13",
+    "@storybook/addon-links": "^6.5.13",
+    "@storybook/builder-webpack5": "^6.5.13",
+    "@storybook/manager-webpack5": "^6.5.13",
+    "@storybook/react": "^6.1.21",
+    "@storybook/testing-library": "^0.0.13",
     "@types/node": "^18.11.9",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
